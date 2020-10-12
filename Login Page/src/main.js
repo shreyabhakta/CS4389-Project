@@ -1,3 +1,8 @@
+//test function (remove later)
+function myOnClickFn(){
+	document.location.href="bankUser.html";
+}
+
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form__message");
 
