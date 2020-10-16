@@ -30,8 +30,8 @@ Languages : HTML5, CSS3, JS and Frameworks (Bootstrap).
 
 ******* SIGNATURE ************
 
-(1) to create the public and private keys, run `generateKeys.py`
-(2) to sign a file with the owner's private key and verifies the signature with the owners public key, run `hash.py`
-(3) to verify if the signature is valid or not, run `verifySignature.py`
+(1) to create the public and private keys, run 'generateKeys.py'
+(2) to sign a given file with the owner's private key and verifying the signature using owner's public key, run 'hashing.py'
+(3) to verify if the owner's signature is valid or not, run 'verifySignature.py'
 
 Languages : python3
