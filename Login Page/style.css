@@ -6,37 +6,45 @@
 }
 body
 {
-	background-image: url(background.jpg);
+	/* background-image: url(background.jpg); */
 	background-size: cover;
 	background-position: center;
 	font-family: sans-serif;
 }
 .menu-bar
 {
-	background: rgb(0, 0, 0);
-	text-align: center;
+
 }
-.menu-bar ul
-{
-	display: inline-flex;
-	list-style: none;
-	color: #fff;
+
+.card-footer, #value{
+	align-content: flex-end;
 }
-.menu-bar ul li
-{
-	width: 120spx;
-	margin: 15px;
-	padding: 15px;
-}
-.menu-bar ul li a
-{
-	text-decoration: none;
-	color: #fff;
+.jumbotron{
+	background-image: url(image2.jpg);
+	background-size: cover ;
 }
 .active, .menu-bar ul li:hover
 {
-	background: #751119;
+	background:#4682B4;
 	border-radius: 3px;
+}
+
+.card-header{
+	padding: 10%;
+}
+
+.card-title{
+	margin-top: 5%;
+	text-align: right;
+
+}
+
+.card{
+	margin-bottom: 5%;
+}
+
+.card-text{
+	text-align: right;
 }
 .menu-bar .fa
 {
@@ -50,7 +58,7 @@ body
 {
 	display: block;
 	position: absolute;
-	background: rgb(117, 17, 25);
+	background: #4682B4;
 	margin-top: 15px;
 	margin-left: -15px;
 }
@@ -71,4 +79,4 @@ body
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover
 {
 	color: #A0A0A0;
-}
+} 
