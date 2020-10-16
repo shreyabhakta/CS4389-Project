@@ -1,3 +1,9 @@
+# CS4389-Project
+
+Bank Simulation
+
+*********************************
+
 Name of the file: app.py
 
 Install Python if you don't have it 
@@ -22,4 +28,10 @@ follow the link obtained on the Terminal preferably on Internet Explorer
 Languages : HTML5, CSS3, JS and Frameworks (Bootstrap).
 
 
+******* SIGNATURE ************
 
+(1) to create the public and private keys, run `generateKeys.py`
+(2) to sign a file with the owner's private key and verifies the signature with the owners public key, run `hash.py`
+(3) to verify if the signature is valid or not, run `verifySignature.py`
+
+Languages : python3
