@@ -30,8 +30,9 @@ Languages : HTML5, CSS3, JS and Frameworks (Bootstrap).
 
 ******* SIGNATURE ************
 
-(1) to create the public and private keys, run 'generateKeys.py'
+(1) to generate the public and private keys, run 'generateKeys.py'
 (2) to sign a given file with the owner's private key and verifying the signature using owner's public key, run 'hashing.py'
 (3) to verify if the owner's signature is valid or not, run 'verifySignature.py'
+   - If you ever modify 'messageData' file, you need to perform step 2 and 3 again to verify owner's signature otherwise it will give you an exception message saying that the signature cannot be verified when you run 'verifySignature.py'
 
-Languages : python3
+Languages : Python3
