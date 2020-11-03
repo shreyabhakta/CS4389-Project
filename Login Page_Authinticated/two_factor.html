@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<body>
+  <div>
+    <form action="/twofactor" method="post">
+      <label for="email">Email:</label>
+      <input
+        type="text"
+        id="email"
+        name="email"
+        readonly="readonly"
+        value="{{ email }}"
+      /><br /><br />
+      <label for="code">Code:</label>
+      <input type="text" id="code" name="code" required  /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
+</body>
