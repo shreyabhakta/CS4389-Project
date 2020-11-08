@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" href="style.css"></link>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+</head>
+<body>
+	<div class="menu-bar">
+		<ul>
+			<li onclick="myOnClickFn()"><a href="#"><i class="fa fa-usd"></i>View Account Balance</a></li>
+			<li class="active"><a href="#"><i class="fa fa-money" ></i>Deposit</a></li>
+			<li onclick="myOnClickFn3()"><a href="#"><i class="fa fa-credit-card"></i>Withdraw</a></li>
+			<li onclick="myOnClickFn4()"><a href="#"><i class="fa fa-suitcase"></i>Transfer</a></li>
+			<li><a href="#"><i class="fa fa-wrench"></i>Account Preferences</a>
+			<div class="sub-menu-1">
+				<ul>
+					<li onclick="myOnClickFn5()"><a href="#"><i class="fa fa-user"></i>View/Edit Profile</a></li>
+					<li onclick="myOnClickFn6()"><a href="#"><i class="fa fa-pause"></i>Freeze Account</a></li>
+					<li onclick="myOnClickFn7()"><a href="#"><i class="fa fa-close"></i>Close Account</a></li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+	</div>
+	<h1 class="heading1">Bank Accounts (4)</h1>
+	<div class="container2">
+        <form class="form" id="currentbalance">
+            <h1 class="form__title">Total Checking (xxx81079) <i>$9,392.83</i></h1>
+        </form>
+	</div>
+	<div class="container3">
+        <form class="form" id="currentbalance">
+            <h1 class="form__title">Total Savings (xxx81079) <i>$21,242.53</i></h1>
+        </form>
+	</div>
+	<div class="container4">
+        <form class="form" id="currentbalance">
+            <h1 class="form__title">Total Checking (xxx65423) <i>$49,168.98</i></h1>
+        </form>
+	</div>
+	<div class="container5">
+        <form class="form" id="currentbalance">
+            <h1 class="form__title">Total Savings (xxx65423) <i>$3,132.13</i></h1>
+        </form>
+	</div>
+	<h1 class="heading3">Deposit</h1>
+	<div class="container13">
+		<form class="form"id="Check Front Side">
+		<h1 class="formtitle">Front of Check:</h1>
+		<div class="btn btn-primary btn-sm float-left waves-effect waves-light"></div>
+			<span>Choose file:</span>
+			<input type="file">
+			<input type="submit"value="Upload">
+		</div>
+		</form>
+	</div>
+	<div class="container14">
+		<form class="form"id="Check Front Side">
+		<h1 class="formtitle">Back of Check:</h1>
+		<div class="btn btn-primary btn-sm float-left waves-effect waves-light"></div>
+			<span>Choose file:</span>
+			<input type="file">
+			<input type="submit"value="Upload">
+		</div>
+		</form>
+	</div>
+	<button class="form__button6" type="submit" onClick="myOnClickFn()">Deposit Check</button>
+	<script src="./src/main.js"></script>
+</body>
+</html>

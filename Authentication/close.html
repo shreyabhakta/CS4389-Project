@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" href="style.css"></link>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+</head>
+<body>
+	<div class="menu-bar">
+		<ul>
+			<li onclick="myOnClickFn()"><a href="#"><i class="fa fa-usd"></i>View Account Balance</a></li>
+			<li onclick="myOnClickFn2()"><a href="#"><i class="fa fa-money" ></i>Deposit</a></li>
+			<li onclick="myOnClickFn3()"><a href="#"><i class="fa fa-credit-card"></i>Withdraw</a></li>
+			<li onclick="myOnClickFn4()"><a href="#"><i class="fa fa-suitcase"></i>Transfer</a></li>
+			<li><a href="#"><i class="fa fa-wrench"></i>Account Preferences</a>
+			<div class="sub-menu-1">
+				<ul>
+					<li onclick="myOnClickFn5()"><a href="#"><i class="fa fa-user"></i>View/Edit Profile</a></li>
+					<li onclick="myOnClickFn6()"><a href="#"><i class="fa fa-pause"></i>Freeze Account</a></li>
+					<li class="active"><a href="#"><i class="fa fa-close"></i>Close Account</a></li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+	</div>
+	<h1 class="heading4">Close Account</h1>
+	<div class="container11">
+	<form class="form" id="Which Account?">
+			<h1 class="form__title">Which Account?</h1>
+			<label for="account">Account:</label>
+			<select id="account" name="account">
+			  <option value="Checking">Checking (xxx81079)</option>
+			  <option value="Saving">Saving (xxx81079)</option>
+			  <option value="Checking">Checking (xxx65423)</option>
+			  <option value="Saving">Saving (xxx65423)</option>
+			</select>
+		</form>
+	</div>
+	<button class="form__button5" type="submit" onClick="myOnClickFn()">Close</button>
+	<script src="./src/main.js"></script>
+</body>
+</html>
