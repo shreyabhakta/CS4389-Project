@@ -2,7 +2,7 @@
 
 Bank Simulation
 
-**************Authentication*******************
+**************Folder Authentication*******************
 [Categorization of files
 app.py: main python file
 bankuser.html, close.html, deposit.html, dfsdf.html, index.html, transfer.html, withdraw.html, profile.html: front-end html files for webpage
