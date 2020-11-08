@@ -2,7 +2,7 @@
 
 Bank Simulation
 
-*********************************
+**************Authentication*******************
 
 Name of the file: app.py
 
@@ -13,10 +13,16 @@ $ sudo apt-get install python3.6
 Install flask :
 python -m pip install flask
 
+Install Flask-SQL extension to access MySQL database
+pip install flask-mysql
+
+Please update the username and password in config.py with your SQL accout (line 29 and 30)
+
+Run the create_table.sql
+
 How to run: python '.\Login Page\app.py'
 
-follow the link obtained on the Terminal preferably on Internet Explorer
-(Having some issues with Chrome will fix it) 
+follow the link obtained on the Terminal (Google chrome should work fine)
 
 
 ******* LOGIN PAGE ************
