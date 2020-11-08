@@ -3,6 +3,12 @@
 Bank Simulation
 
 **************Authentication*******************
+[Categorization of files
+app.py: main python file
+bankuser.html, close.html, deposit.html, dfsdf.html, index.html, transfer.html, withdraw.html, profile.html: front-end html files for webpage
+config.py: python file that contains passwords for database and system's email address that sends email for two factor authentication.
+create_table.sql: MySQL file for creating necessary table for authentication
+style.css, main.css, main.js, main2.js : CSS and JS files for supporting html pages]
 
 Name of the file: app.py
 
