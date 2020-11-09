@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" href="style.css"></link>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+</head>
+<body>
+	<div class="menu-bar">
+		<ul>
+			<li onclick="myOnClickFn()"><a href="#"><i class="fa fa-usd"></i>View Account Balance</a></li>
+			<li onclick="myOnClickFn2()"><a href="#"><i class="fa fa-money" ></i>Deposit</a></li>
+			<li onclick="myOnClickFn3()"><a href="#"><i class="fa fa-credit-card"></i>Withdraw</a></li>
+			<li onclick="myOnClickFn4()"><a href="#"><i class="fa fa-suitcase"></i>Transfer</a></li>
+			<li><a href="#"><i class="fa fa-wrench"></i>Account Preferences</a>
+			<div class="sub-menu-1">
+				<ul>
+					<li class="active"><a href="#"><i class="fa fa-user"></i>View/Edit Profile</a></li>
+					<li onclick="myOnClickFn6()"><a href="#"><i class="fa fa-pause"></i>Freeze Account</a></li>
+					<li onclick="myOnClickFn7()"><a href="#"><i class="fa fa-close"></i>Close Account</a></li>
+				</ul>
+			</div>
+			</li>
+		</ul>
+	</div>
+	<h1 class="heading4">View/Edit Profile</h1>
+	<div class="container10">
+        <form class="form" id="profile">
+			<table class="tableborder">
+				<tr>
+					<th>First Name:</th>
+					<td>John</td>
+				</tr>
+				<tr>
+					<th>Last Name:</th>
+					<td>Smith</td>
+				</tr>
+				<tr>
+					<th>Email:</th>
+					<td>jsmith93@gmail.com</td>
+				</tr>
+				<tr>
+					<th>Phone:</th>
+					<td>+1(232)394-3453</td>
+				</tr> 
+				<tr>
+					<th>Date of Birth:</th>
+					<td>11/29/1993</td>
+				</tr>
+				<tr>
+					<th>SSN:</th>
+					<td>339-96-3984</td>
+				</tr>
+				<tr>
+					<th>Available Account(s):</th>
+					<td>Checking (xxx81079), Savings (xxx81079), Checking (xxx65423), Savings (xxx65423)</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<button class="form__button3" type="submit" onClick="myOnClickFn()">Edit Profile</button>
+	<script src="./src/main.js"></script>
+</body>
+</html>

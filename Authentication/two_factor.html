@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Login / Sign Up Form</title>
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="stylesheet" href="./src/main.css"></head>
+<body>
+  <div class="container">
+    <form action="/twofactor" method="post">
+      <h1 align="center"><u>Banking Simulation</u></h1>
+      <label for="email">Email:</label>
+      <input
+        type="text"
+        id="email"
+        name="email"
+        readonly="readonly"
+        value="{{ email }}"
+      /><br /><br />
+      <label for="code">Code:</label>
+      <input type="text" id="code" name="code" required  /><br /><br />
+      <button class="form_button" input type="submit" value="Submit" />Submit </button></form>
+    </form>
+  </div>
+</body>
